@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory = tech.digiwise.\
+    tahadi.config.SqlTestContainersSpringContextCustomizerFactory
