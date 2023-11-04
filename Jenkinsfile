@@ -11,9 +11,10 @@ pipeline {
             }
         }
         
-        stage('Build') {
+        stage('Maven Build') {
             steps {
-				 echo 'Building the code'
+				 echo 'Building the code with Maven'
+				 sh './mvnw clean install'
             }
         }
 
