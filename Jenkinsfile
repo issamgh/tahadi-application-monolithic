@@ -6,7 +6,7 @@ pipeline {
             steps {
 				echo 'Checking out the code from the Git repository'
                 script {
-                    git branch: 'main', url: 'https://github.com/digiwiseTech/tahadi-application-monolithic.git'
+                    git branch: 'main', url: 'https://github.com/issamgh/tahadi-application-monolithic.git'
                 }
             }
         }
