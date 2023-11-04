@@ -13,7 +13,7 @@ pipeline {
         
         stage('Maven Build') {
             steps {
-				 echo 'Building the code with Maven'
+				 echo 'Building the code with Maven IGH'
 				 //sh './mvnw clean install'
             }
         }
